@@ -10,5 +10,74 @@ html {
 body {
     width: 100%;
     min-height: 100vh;
-    border: 5px dashed red;
+}
+.content {
+    background: radial-gradient(closest-side, #1b2735 0%,#090a0f 100%);
+    min-height: 85vh;
+    color: white;
+}
+.tLetter {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+}
+.rLetter {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+}
+.inner {
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+}
+.inner h1 {
+    padding: 25px;
+    font-size: 50px;
+}
+.inner h2 {
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+.inner h1 span {
+    color: red;
+}
+.inner h2 span {
+    color: red;
+}
+.links li {
+    display: inline-block;
+}
+.links li a {
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+}
+.instagram {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+}
+.twitter {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+}
+.github {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+}
+.linkedin {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+}
+.ysu {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+}
+footer {
+    width: 100%;
 }

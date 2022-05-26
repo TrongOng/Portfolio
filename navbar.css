@@ -1,0 +1,37 @@
+header {
+    min-height: 15vh;
+    background: black;
+}
+.logoName {
+    display: inline-block;
+    margin: 40px auto 20px 50px;
+}
+.logoName span {
+    color: red;
+    padding: 20px;
+    background: white;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 50px;
+}
+nav ul {
+    font-weight: 500;
+    font-size: 25px;
+    background: transparent;
+    float: right;
+    margin: 50px 50px 20px auto;
+}
+nav li {
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+nav li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 10px;
+}
+nav li a:hover {
+    color: red;
+    cursor: pointer;
+}
