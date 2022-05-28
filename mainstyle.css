@@ -16,20 +16,10 @@ body {
     min-height: 85vh;
     color: white;
 }
-.tLetter {
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 45px;
-}
-.rLetter {
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 45px;
-}
 .inner {
     text-align: center;
     justify-content: center;
-    padding: 10%;
+    padding: 10% 25%;
 }
 .inner h1 {
     padding: 25px;
@@ -78,6 +68,93 @@ body {
     background-repeat: no-repeat;
     height: 45px;
 }
+
 footer {
     width: 100%;
+}
+/*animation*/
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid red;
+    position: relative;
+    float: left;
+    animation-name: triangleOne;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid red;
+    position: relative;
+    float: right;
+    animation-name: triangleTwo;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes triangleOne {
+	0% {
+		transform: translate(0, 0) rotate(0deg);
+	}
+    25% {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid gold;
+    }
+    50% {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid lime;
+        transform: translate(300px, 300px) rotate(360deg);
+    }
+    75% {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid lime;
+    }
+	100% {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid dodgerblue;
+        transform: translate(-0px, 750px) rotate(-360deg);
+	}
+
+}
+@keyframes triangleTwo {
+	0% {
+		transform: translate(0, 0) rotate(0deg);
+	}
+    25% {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid gold;
+    }
+    50% {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid lime;
+        transform: translate(-300px, 300px) rotate(360deg);
+    }
+    75% {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid lime;
+    }
+	100% {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid dodgerblue;
+        transform: translate(-0px, 750px) rotate(-360deg);
+	}
+
 }
