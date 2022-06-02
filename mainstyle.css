@@ -19,7 +19,7 @@ body {
 .inner {
     text-align: center;
     justify-content: center;
-    padding: 10% 25%;
+    padding: 18% 25%;
 }
 .inner h1 {
     padding: 25px;
@@ -68,12 +68,8 @@ body {
     background-repeat: no-repeat;
     height: 45px;
 }
-
-footer {
-    width: 100%;
-}
-/*animation*/
-.triangle-left {
+/*
+.triangle-top-left {
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -81,13 +77,9 @@ footer {
     border-bottom: 50px solid red;
     position: relative;
     float: left;
-    animation-name: triangleOne;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation: triangleOne 8s infinite linear alternate;
 }
-.triangle-right {
+.triangle-top-right {
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -95,66 +87,140 @@ footer {
     border-bottom: 50px solid red;
     position: relative;
     float: right;
-    animation-name: triangleTwo;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation: triangleTwo 8s infinite linear alternate;
 
 }
+*/
+.bio {
+    min-height: 45vh;
+    background: radial-gradient(#1b2735, #090a0f);
+    display: flex;
+
+}
+.bioContent {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+.picture {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    box-shadow: 10px 10px 5px rgb(65, 122, 141);
+}
+.text {
+    width: 50%;
+    text-align: justify;
+    color: white;
+    margin: 0px 0px 0px 50px;
+}
+.text span {
+    color: rgb(131, 22, 22);
+}
+.text p {
+    color:rgb(112, 110, 110);
+    padding-top: 7px;
+    font-size: 20px;
+}
+.text h3 {
+    padding-top: 10px;
+}
+footer {
+    min-height: 20vh;
+    background: black;
+    color: white;
+}
+.hub {
+    display: flex;
+    justify-content: center;
+}
+.hub div {
+    padding: 20px;
+}
+.hub div a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+.hub div p {
+    color: rgb(156, 156, 156);
+}
+.footer-left {
+    float: left;
+    padding-left: 10px;
+}
+.footer-right {
+    float: right;
+    padding-right: 10px;
+}
+/*
 @keyframes triangleOne {
 	0% {
 		transform: translate(0, 0) rotate(0deg);
+        border-left: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 0px solid gold;
 	}
     25% {
-        border-left: 25px solid transparent;
-        border-right: 25px solid transparent;
-        border-bottom: 50px solid gold;
+        border-left: 12.5px solid transparent;
+        border-right: 12.5px solid transparent;
+        border-bottom: 25px solid gold;
+        transform: translate(700px, 300px) rotate(360deg);
+        height: 100%;
     }
     50% {
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         border-bottom: 50px solid lime;
-        transform: translate(300px, 300px) rotate(360deg);
+        transform: translate(1000px, 0px) rotate(720deg);
+        height: 100%;
     }
     75% {
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         border-bottom: 50px solid lime;
+        transform: translate(1200px, 300px) rotate(1080deg);
+        height: 100%;
     }
 	100% {
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         border-bottom: 50px solid dodgerblue;
-        transform: translate(-0px, 750px) rotate(-360deg);
+        transform: translate(1850px, 0px) rotate(1400deg);
+        height: 100%;
 	}
 
 }
 @keyframes triangleTwo {
 	0% {
 		transform: translate(0, 0) rotate(0deg);
+        border-left: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 0px solid gold;
 	}
     25% {
-        border-left: 25px solid transparent;
-        border-right: 25px solid transparent;
-        border-bottom: 50px solid gold;
+        border-left: 12.5px solid transparent;
+        border-right: 12.5px solid transparent;
+        border-bottom: 25px solid gold;
+        transform: translate(-400px, 840px) rotate(360deg);
     }
     50% {
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         border-bottom: 50px solid lime;
-        transform: translate(-300px, 300px) rotate(360deg);
+        transform: translate(-700px, 600px) rotate(720deg);
     }
     75% {
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         border-bottom: 50px solid lime;
+        transform: translate(-1000px, 850px) rotate(1080deg);
     }
 	100% {
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         border-bottom: 50px solid dodgerblue;
-        transform: translate(-0px, 750px) rotate(-360deg);
+        transform: translate(-1850px, 0px) rotate(1400deg);
 	}
-
 }
+*/
