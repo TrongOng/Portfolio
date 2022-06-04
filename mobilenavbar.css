@@ -1,0 +1,180 @@
+@media all and (width: 375px) {
+    .logoName {
+        margin: 35px auto 0px 20px;
+    }
+    .logoName span {
+        padding: 15px;
+        font-size: 25px;
+    }
+    nav ul {
+        font-weight: 500;
+        font-size: 13px;
+        margin: 40px 20px 10px auto;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        margin: 10px;
+    }
+}
+@media all and (width: 414px) {
+    .logoName {
+        margin: 50px auto 0px 20px;
+    }
+    .logoName span {
+        padding: 15px;
+        font-size: 25px;
+    }
+    nav ul {
+        font-size: 16px;
+        margin: 55px 20px 10px auto;
+    }
+    nav li a {
+        margin: 5px;
+    }
+}
+@media all and (width: 390px) {
+    .logoName {
+        margin: 50px auto 0px 20px;
+    }
+    .logoName span {
+        padding: 15px;
+        font-size: 25px;
+    }
+    nav ul {
+        font-size: 16px;
+        margin: 55px 20px 10px auto;
+    }
+    nav li a {
+        margin: 5px;
+    }
+}
+@media all and (width: 393px) {
+    .logoName {
+        margin: 50px auto 0px 20px;
+    }
+    .logoName span {
+        padding: 15px;
+        font-size: 25px;
+    }
+    nav ul {
+        font-size: 16px;
+        margin: 55px 20px 10px auto;
+    }
+    nav li a {
+        margin: 5px;
+    }
+}
+@media all and (width: 360px) {
+    .logoName {
+        margin: 40px auto 0px 20px;
+    }
+    .logoName span {
+        padding: 15px;
+        font-size: 25px;
+    }
+    nav ul {
+        font-size: 13px;
+        margin: 45px 20px 10px auto;
+    }
+    nav li a {
+        margin: 5px;
+    }
+}
+@media all and (width: 412px) {
+    .logoName {
+        margin: 50px auto 0px 20px;
+    }
+    .logoName span {
+        padding: 15px;
+        font-size: 25px;
+    }
+    nav ul {
+        font-size: 16px;
+        margin: 55px 20px 10px auto;
+    }
+    nav li a {
+        margin: 5px;
+    }
+}
+@media all and (width: 820px) {
+    .logoName {
+        margin: 55px auto 0px 50px;
+    }
+    .logoName span {
+        padding: 20px;
+        font-size: 50px;
+    }
+    nav ul {
+        font-size: 25px;
+        margin: 70px 50px 0px auto;
+    }
+    nav li a {
+        margin: 10px;
+    }
+}
+@media all and (width: 768px) {
+    .logoName {
+        margin: 45px auto 0px 50px;
+    }
+    .logoName span {
+        padding: 20px;
+        font-size: 50px;
+    }
+    nav ul {
+        font-size: 25px;
+        margin: 60px 50px 0px auto;
+    }
+    nav li a {
+        margin: 10px;
+    }
+}
+@media all and (width: 912px) {
+    .logoName {
+        margin: 60px auto 0px 50px;
+    }
+    .logoName span {
+        padding: 25px;
+        font-size: 60px;
+    }
+    nav ul {
+        font-size: 35px;
+        margin: 75px 50px 0px auto;
+    }
+    nav li a {
+        margin: 10px;
+    }
+}
+@media all and (width: 540px) {
+    .logoName {
+        margin: 40px auto 0px 20px;
+    }
+    .logoName span {
+        padding: 15px;
+        font-size: 25px;
+    }
+    nav ul {
+        font-size: 16px;
+        margin: 45px 20px 10px auto;
+    }
+    nav li a {
+        margin: 5px;
+    }
+}
+@media all and (width: 280px) {
+    .logoName {
+        margin: 40px auto 0px 20px;
+    }
+    .logoName span {
+        padding: 12px;
+        font-size: 18px;
+    }
+    nav ul {
+        font-size: 10px;
+        margin: 45px 20px 10px auto;
+    }
+    nav li a {
+        margin: 3px;
+    }
+}

@@ -1,0 +1,965 @@
+@media all and (width: 836px) {
+    .content {
+        padding-top: 27%;
+    }
+    footer {
+        min-height: 25vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media all and (width: 375px) {
+    .content {
+        padding-top: 40%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    .links li a {
+        padding: 15px;
+    }
+    .instagram {
+        height: 30px;
+    }
+    .twitter {
+        height: 30px;
+    }
+    .github {
+        height: 30px;
+    }
+    .linkedin {
+        height: 30px;
+    }
+    .ysu {
+        height: 30px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 300px;
+        width: 250px;
+        margin-left: 40px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 30vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media all and (width: 414px) {
+    .content {
+        padding-top: 55%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    .links li a {
+        padding: 15px;
+    }
+    .instagram {
+        height: 30px;
+    }
+    .twitter {
+        height: 30px;
+    }
+    .github {
+        height: 30px;
+    }
+    .linkedin {
+        height: 30px;
+    }
+    .ysu {
+        height: 30px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 300px;
+        width: 250px;
+        margin-left: 40px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 25vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+
+@media all and (width: 390px) {
+    .content {
+        padding-top: 55%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    .links li a {
+        padding: 15px;
+    }
+    .instagram {
+        height: 30px;
+    }
+    .twitter {
+        height: 30px;
+    }
+    .github {
+        height: 30px;
+    }
+    .linkedin {
+        height: 30px;
+    }
+    .ysu {
+        height: 30px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 300px;
+        width: 250px;
+        margin-left: 40px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 25vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media all and (width: 393px) {
+    .content {
+        padding-top: 55%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    .links li a {
+        padding: 15px;
+    }
+    .instagram {
+        height: 30px;
+    }
+    .twitter {
+        height: 30px;
+    }
+    .github {
+        height: 30px;
+    }
+    .linkedin {
+        height: 30px;
+    }
+    .ysu {
+        height: 30px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 300px;
+        width: 250px;
+        margin-left: 40px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 25vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media all and (width: 360px) {
+    .content {
+        padding-top: 45%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    .links li a {
+        padding: 15px;
+    }
+    .instagram {
+        height: 30px;
+    }
+    .twitter {
+        height: 30px;
+    }
+    .github {
+        height: 30px;
+    }
+    .linkedin {
+        height: 30px;
+    }
+    .ysu {
+        height: 30px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 300px;
+        width: 250px;
+        margin-left: 40px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 30vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media all and (width: 412px) {
+    .content {
+        padding-top: 60%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    .links li a {
+        padding: 15px;
+    }
+    .instagram {
+        height: 30px;
+    }
+    .twitter {
+        height: 30px;
+    }
+    .github {
+        height: 30px;
+    }
+    .linkedin {
+        height: 30px;
+    }
+    .ysu {
+        height: 30px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 300px;
+        width: 250px;
+        margin-left: 60px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 25vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media all and (width: 820px) {
+    .content {
+        padding-top: 40%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 50px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 40px;
+    }
+    .links li a {
+        padding: 20px;
+    }
+    .instagram {
+        height: 45px;
+    }
+    .twitter {
+        height: 45px;
+    }
+    .github {
+        height: 45px;
+    }
+    .linkedin {
+        height: 45px;
+    }
+    .ysu {
+        height: 45px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 400px;
+        width: 300px;
+        margin-left: 220px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 18vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media all and (width: 768px) {
+    .content {
+        padding-top: 35%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 50px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 40px;
+    }
+    .links li a {
+        padding: 20px;
+    }
+    .instagram {
+        height: 45px;
+    }
+    .twitter {
+        height: 45px;
+    }
+    .github {
+        height: 45px;
+    }
+    .linkedin {
+        height: 45px;
+    }
+    .ysu {
+        height: 45px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 400px;
+        width: 300px;
+        margin-left: 200px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 20vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media all and (width: 912px) {
+    .content {
+        padding-top: 40%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 60px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 55px;
+    }
+    .links li a {
+        padding: 20px;
+    }
+    .instagram {
+        height: 50px;
+    }
+    .twitter {
+        height: 50px;
+    }
+    .github {
+        height: 50px;
+    }
+    .linkedin {
+        height: 50px;
+    }
+    .ysu {
+        height: 50px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 400px;
+        width: 300px;
+        margin-left: 280px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 30px;
+    }
+    .text h1 {
+        padding-top: 10px;
+    }
+/*footer*/
+    footer {
+        min-height: 20vh;
+        min-width: 100%;
+        font-size: 20px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+
+
+
+@keyframes textColor {
+    0% {
+        color: red;
+    }
+    25% {
+        color: gold;
+    }
+    50% {
+        color: lime;
+    }
+    75% {
+        color: dodgerblue;
+    }
+}
+@keyframes pictureColor {
+    0% {
+        box-shadow: 10px 10px 5px dodgerblue;
+    }
+    25% {
+        box-shadow: 10px 10px 5px lime;
+    }
+    50% {
+        box-shadow: 10px 10px 5px gold;
+    }
+    75% {
+        box-shadow: 10px 10px 5px red;
+    }
+}
+@media all and (width: 540px) {
+    .content {
+        padding-top: 35%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    .links li a {
+        padding: 15px;
+    }
+    .instagram {
+        height: 30px;
+    }
+    .twitter {
+        height: 30px;
+    }
+    .github {
+        height: 30px;
+    }
+    .linkedin {
+        height: 30px;
+    }
+    .ysu {
+        height: 30px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 300px;
+        width: 250px;
+        margin-left: 120px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 30vh;
+        min-width: 100%;
+        font-size: 15px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}
+@media all and (width: 280px) {
+    body {
+        width: 100%;
+        min-height: 100vh;
+    }
+    .content {
+        padding-top: 55%;
+    }
+    .inner h1 {
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    .inner h2 {
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+    .links li a {
+        padding: 10px;
+    }
+    .instagram {
+        height: 20px;
+    }
+    .twitter {
+        height: 20px;
+    }
+    .github {
+        height: 20px;
+    }
+    .linkedin {
+        height: 20px;
+    }
+    .ysu {
+        height: 20px;
+    }
+/*Bio*/
+    .bio {
+        display: flex;
+    }
+    .bioContent {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .picture {
+        height: 200px;
+        width: 150px;
+        margin-left: 40px;
+    }
+    .text {
+        width: 90%;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    .text p {
+        color:rgb(112, 110, 110);
+        padding-top: 7px;
+        font-size: 15px;
+    }
+    .text h1 {
+        padding-top: 30px;
+    }
+/*footer*/
+    footer {
+        min-height: 25vh;
+        font-size: 10px;
+    }
+    .hub {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .hub div {
+        padding: 10px;
+    }
+    .footer-left {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer-right {
+        float: right;
+        padding-right: 10px;
+    }
+}

@@ -35,3 +35,27 @@ nav li a:hover {
     color: red;
     cursor: pointer;
 }
+@media all and (width: 375px) {
+    header {
+        min-height: 15vh;
+        background: black;
+    }
+    .logoName {
+        margin: 35px auto 0px 20px;
+    }
+    .logoName span {
+        padding: 15px;
+        font-size: 25px;
+    }
+    nav ul {
+        font-weight: 500;
+        font-size: 13px;
+        margin: 40px 20px 10px auto;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        margin: 10px;
+    }
+}

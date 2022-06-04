@@ -13,27 +13,29 @@ body {
 }
 .content {
     background: radial-gradient(closest-side, #1b2735 0%,#090a0f 100%);
-    min-height: 85vh;
+    min-height: 75vh;
     color: white;
+    padding-top: 12%;
 }
 .inner {
     text-align: center;
     justify-content: center;
-    padding: 18% 25%;
 }
 .inner h1 {
-    padding: 25px;
+    padding-bottom: 25px;
     font-size: 50px;
 }
 .inner h2 {
     padding-bottom: 25px;
     font-size: 30px;
 }
-.inner h1 span {
+.inner h1 .textColor {
     color: red;
+    animation: textColor 8s infinite alternate;
 }
-.inner h2 span {
+.inner h2 .textColor {
     color: red;
+    animation: textColor 8s infinite alternate;
 }
 .links li {
     display: inline-block;
@@ -68,34 +70,10 @@ body {
     background-repeat: no-repeat;
     height: 45px;
 }
-/*
-.triangle-top-left {
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 50px solid red;
-    position: relative;
-    float: left;
-    animation: triangleOne 8s infinite linear alternate;
-}
-.triangle-top-right {
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 50px solid red;
-    position: relative;
-    float: right;
-    animation: triangleTwo 8s infinite linear alternate;
-
-}
-*/
 .bio {
-    min-height: 45vh;
+    min-height: 50vh;
     background: radial-gradient(#1b2735, #090a0f);
     display: flex;
-
 }
 .bioContent {
     display: flex;
@@ -107,13 +85,13 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
-    box-shadow: 10px 10px 5px rgb(65, 122, 141);
+    animation: pictureColor 8s infinite alternate;
 }
 .text {
     width: 50%;
     text-align: justify;
     color: white;
-    margin: 0px 0px 0px 50px;
+    margin-left: 50px;
 }
 .text span {
     color: rgb(131, 22, 22);
@@ -123,7 +101,7 @@ body {
     padding-top: 7px;
     font-size: 20px;
 }
-.text h3 {
+.text h1 {
     padding-top: 10px;
 }
 footer {
@@ -153,6 +131,70 @@ footer {
     float: right;
     padding-right: 10px;
 }
+@keyframes pictureColor {
+    0% {
+        box-shadow: 10px 10px 5px dodgerblue;
+    }
+    25% {
+        box-shadow: 10px 10px 5px lime;
+    }
+    50% {
+        box-shadow: 10px 10px 5px gold;
+    }
+    75% {
+        box-shadow: 10px 10px 5px red;
+    }
+}
+@keyframes textColor {
+    0% {
+        color: red;
+    }
+    25% {
+        color: gold;
+    }
+    50% {
+        color: lime;
+    }
+    75% {
+        color: dodgerblue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.triangle-top-left {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid red;
+    position: relative;
+    float: left;
+    animation: triangleOne 8s infinite linear alternate;
+}
+.triangle-top-right {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid red;
+    position: relative;
+    float: right;
+    animation: triangleTwo 8s infinite linear alternate;
+
+}
+*/
+
+
+
 /*
 @keyframes triangleOne {
 	0% {
