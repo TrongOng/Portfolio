@@ -31,14 +31,14 @@
     }
     .inner h1 {
         padding-bottom: 25px;
-        font-size: 30px;
+        font-size: 22px;
     }
     .inner h2 {
         padding-bottom: 25px;
-        font-size: 25px;
+        font-size: 20px;
     }
     .links li a {
-        padding: 15px;
+        padding: 7px;
     }
     .instagram {
         height: 30px;
@@ -113,14 +113,14 @@
     }
     .inner h1 {
         padding-bottom: 25px;
-        font-size: 30px;
+        font-size: 25px;
     }
     .inner h2 {
         padding-bottom: 25px;
-        font-size: 25px;
+        font-size: 23px;
     }
     .links li a {
-        padding: 15px;
+        padding: 10px;
     }
     .instagram {
         height: 30px;
@@ -196,14 +196,14 @@
     }
     .inner h1 {
         padding-bottom: 25px;
-        font-size: 30px;
-    }
-    .inner h2 {
-        padding-bottom: 25px;
         font-size: 25px;
     }
+    .inner h2 {
+        padding-bottom: 23px;
+        font-size: 20px;
+    }
     .links li a {
-        padding: 15px;
+        padding: 10px;
     }
     .instagram {
         height: 30px;
@@ -278,14 +278,14 @@
     }
     .inner h1 {
         padding-bottom: 25px;
-        font-size: 30px;
+        font-size: 23px;
     }
     .inner h2 {
         padding-bottom: 25px;
-        font-size: 25px;
+        font-size: 21px;
     }
     .links li a {
-        padding: 15px;
+        padding: 10px;
     }
     .instagram {
         height: 30px;
@@ -360,29 +360,29 @@
     }
     .inner h1 {
         padding-bottom: 25px;
-        font-size: 30px;
+        font-size: 23px;
     }
     .inner h2 {
         padding-bottom: 25px;
-        font-size: 25px;
+        font-size: 20px;
     }
     .links li a {
-        padding: 15px;
+        padding: 10px;
     }
     .instagram {
-        height: 30px;
+        height: 28px;
     }
     .twitter {
-        height: 30px;
+        height: 28px;
     }
     .github {
-        height: 30px;
+        height: 28px;
     }
     .linkedin {
-        height: 30px;
+        height: 28px;
     }
     .ysu {
-        height: 30px;
+        height: 28px;
     }
 /*Bio*/
     .bio {
@@ -442,14 +442,14 @@
     }
     .inner h1 {
         padding-bottom: 25px;
-        font-size: 30px;
+        font-size: 25px;
     }
     .inner h2 {
         padding-bottom: 25px;
-        font-size: 25px;
+        font-size: 23px;
     }
     .links li a {
-        padding: 15px;
+        padding: 10px;
     }
     .instagram {
         height: 30px;
@@ -687,12 +687,12 @@
         padding-top: 40%;
     }
     .inner h1 {
-        padding-bottom: 25px;
-        font-size: 60px;
+        padding-bottom: 35px;
+        font-size: 55px;
     }
     .inner h2 {
-        padding-bottom: 25px;
-        font-size: 55px;
+        padding-bottom: 35px;
+        font-size: 50px;
     }
     .links li a {
         padding: 20px;
@@ -763,37 +763,6 @@
     .footer-right {
         float: right;
         padding-right: 10px;
-    }
-}
-
-
-
-@keyframes textColor {
-    0% {
-        color: red;
-    }
-    25% {
-        color: gold;
-    }
-    50% {
-        color: lime;
-    }
-    75% {
-        color: dodgerblue;
-    }
-}
-@keyframes pictureColor {
-    0% {
-        box-shadow: 10px 10px 5px dodgerblue;
-    }
-    25% {
-        box-shadow: 10px 10px 5px lime;
-    }
-    50% {
-        box-shadow: 10px 10px 5px gold;
-    }
-    75% {
-        box-shadow: 10px 10px 5px red;
     }
 }
 @media all and (width: 540px) {
@@ -888,14 +857,14 @@
     }
     .inner h1 {
         padding-bottom: 25px;
-        font-size: 25px;
+        font-size: 17px;
     }
     .inner h2 {
         padding-bottom: 25px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .links li a {
-        padding: 10px;
+        padding: 7px;
     }
     .instagram {
         height: 20px;

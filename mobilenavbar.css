@@ -1,6 +1,7 @@
 @media all and (width: 375px) {
     .logoName {
-        margin: 35px auto 0px 20px;
+        margin: 20px auto 0px 13px;
+        padding: 15px;
     }
     .logoName span {
         padding: 15px;
@@ -9,7 +10,7 @@
     nav ul {
         font-weight: 500;
         font-size: 13px;
-        margin: 40px 20px 10px auto;
+        margin: 40px 13px 10px auto;
     }
     nav li {
         display: inline-block;
@@ -20,15 +21,16 @@
 }
 @media all and (width: 414px) {
     .logoName {
-        margin: 50px auto 0px 20px;
+        margin: 35px auto 0px 20px;
+        padding: 15px;
     }
     .logoName span {
         padding: 15px;
-        font-size: 25px;
+        font-size: 22px;
     }
     nav ul {
         font-size: 16px;
-        margin: 55px 20px 10px auto;
+        margin: 50px 17px 10px auto;
     }
     nav li a {
         margin: 5px;
@@ -36,15 +38,16 @@
 }
 @media all and (width: 390px) {
     .logoName {
-        margin: 50px auto 0px 20px;
+        margin: 32px auto 0px 18px;
+        padding: 15px;
     }
     .logoName span {
         padding: 15px;
-        font-size: 25px;
+        font-size: 22px;
     }
     nav ul {
         font-size: 16px;
-        margin: 55px 20px 10px auto;
+        margin: 50px 18px 10px auto;
     }
     nav li a {
         margin: 5px;
@@ -52,15 +55,16 @@
 }
 @media all and (width: 393px) {
     .logoName {
-        margin: 50px auto 0px 20px;
+        margin: 32px auto 0px 20px;
+        padding: 15px;
     }
     .logoName span {
         padding: 15px;
-        font-size: 25px;
+        font-size: 22px;
     }
     nav ul {
         font-size: 16px;
-        margin: 55px 20px 10px auto;
+        margin: 52px 18px 10px auto;
     }
     nav li a {
         margin: 5px;
@@ -68,7 +72,8 @@
 }
 @media all and (width: 360px) {
     .logoName {
-        margin: 40px auto 0px 20px;
+        margin: 20px auto 0px 16px;
+        padding: 15px;
     }
     .logoName span {
         padding: 15px;
@@ -76,7 +81,7 @@
     }
     nav ul {
         font-size: 13px;
-        margin: 45px 20px 10px auto;
+        margin: 45px 16px 10px auto;
     }
     nav li a {
         margin: 5px;
@@ -84,7 +89,8 @@
 }
 @media all and (width: 412px) {
     .logoName {
-        margin: 50px auto 0px 20px;
+        margin: 30px auto 0px 17px;
+        padding: 15px;
     }
     .logoName span {
         padding: 15px;
@@ -92,7 +98,7 @@
     }
     nav ul {
         font-size: 16px;
-        margin: 55px 20px 10px auto;
+        margin: 55px 17px 10px auto;
     }
     nav li a {
         margin: 5px;
@@ -100,7 +106,7 @@
 }
 @media all and (width: 820px) {
     .logoName {
-        margin: 55px auto 0px 50px;
+        margin: 35px auto 0px 40px;
     }
     .logoName span {
         padding: 20px;
@@ -116,7 +122,8 @@
 }
 @media all and (width: 768px) {
     .logoName {
-        margin: 45px auto 0px 50px;
+        margin: 22px auto 0px 40px;
+        padding: 22px;
     }
     .logoName span {
         padding: 20px;
@@ -132,7 +139,8 @@
 }
 @media all and (width: 912px) {
     .logoName {
-        margin: 60px auto 0px 50px;
+        margin: 35px auto 0px 40px;
+        padding: 28px;
     }
     .logoName span {
         padding: 25px;
@@ -148,7 +156,8 @@
 }
 @media all and (width: 540px) {
     .logoName {
-        margin: 40px auto 0px 20px;
+        margin: 20px auto 0px 20px;
+        padding: 15px;
     }
     .logoName span {
         padding: 15px;
@@ -164,15 +173,16 @@
 }
 @media all and (width: 280px) {
     .logoName {
-        margin: 40px auto 0px 20px;
+        margin: 25px auto 0px 20px;
+        padding: 12px;
     }
     .logoName span {
         padding: 12px;
         font-size: 18px;
     }
     nav ul {
-        font-size: 10px;
-        margin: 45px 20px 10px auto;
+        font-size: 12px;
+        margin: 40px 15px 10px auto;
     }
     nav li a {
         margin: 3px;
